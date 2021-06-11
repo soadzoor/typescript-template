@@ -10,6 +10,8 @@
     "sourceMap": true,
     "outDir": "build/prod/src",
     "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noImplicitOverride": true,
     "strictBindCallApply": true,
     "types": [
       "node"
@@ -23,7 +25,8 @@
       "es2015.iterable",
       "es2015.promise",
       "es2015.symbol",
-      "es2015.symbol.wellknown"
+      "es2015.symbol.wellknown",
+      "es2019"
     ]
   },
   "include": [
